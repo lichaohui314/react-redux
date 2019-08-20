@@ -1,0 +1,23 @@
+.home-wrap{
+    position: relative;
+    height: 100vh;
+    p{
+        font-size: 35px;
+    }
+    .err-alert,.loading{
+        position: absolute;
+        left: 50% ;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        margin: auto;
+        border: 2px solid red;
+        width: 650px;
+        height: 400px;
+        text-align: center;
+        // line-height: 400px;
+    }
+    .err-alert{
+        width: 700px;
+        height: 200px;
+    }
+}
