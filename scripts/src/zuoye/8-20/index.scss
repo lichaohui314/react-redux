@@ -1,0 +1,23 @@
+.ul {
+	font-size: 40px;
+	width: 40vw;
+	a {
+		text-decoration: none;
+		color: #000000;
+	}
+	a:hover {
+		background: #cccccc;
+	}
+
+	.ul-li > .child {
+		font-size: 30px;
+		display: none;
+	}
+	.ul-li:hover > .child {
+		display: block;
+	}
+}
+.main {
+	margin: 20px;
+	width: 60vw;
+}

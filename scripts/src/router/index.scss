@@ -1,0 +1,13 @@
+.class-a-nav {
+  .flex-item {
+    .second-nav {
+      display: none;
+    }
+    &:hover {
+      .second-nav {
+        display: block;
+      }
+    }
+  }
+  
+}

@@ -1,0 +1,16 @@
+.form-box{
+    position: relative;
+    label{
+        display: flex;
+    }
+    .loading{
+        width: 100vw;
+        height: 100vh;
+        background: #fff;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-size: 40px;
+    }
+}
